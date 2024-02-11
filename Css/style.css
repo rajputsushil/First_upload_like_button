@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(59, 59, 223);
+}
+#container{
+    width: 460px;
+    height: 500px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 3px 30px black;
+}
+#container img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    top: 10%;
+    left:10%;
+    position: absolute;
+}
+
+#heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    color: rgb(163, 12, 12);
+    /* opacity: 0; */
+    transition: ease 0.4s;
+}
